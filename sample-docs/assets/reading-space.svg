@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 290" width="920" height="290">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef3fc"/><stop offset="1" stop-color="#f5f7fb"/></linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d88bd"/><stop offset="1" stop-color="#506da7"/></linearGradient>
+  </defs>
+  <rect width="920" height="290" rx="18" fill="url(#bg)"/>
+  <circle cx="788" cy="22" r="144" fill="#e8eef9"/>
+  <circle cx="97" cy="275" r="108" fill="#e7edf7"/>
+  <path d="M535 224H844" stroke="#cbd6e9" stroke-width="2"/>
+  <rect x="564" y="81" width="123" height="143" rx="7" fill="url(#book)"/>
+  <rect x="574" y="90" width="8" height="126" rx="3" fill="#8ca2ca"/>
+  <path d="M602 119H660M602 133H650M602 147H657" stroke="#ccd8ee" stroke-width="5" stroke-linecap="round"/>
+  <rect x="690" y="66" width="20" height="158" rx="3" fill="#c5d2e9"/>
+  <rect x="715" y="102" width="29" height="122" rx="3" fill="#e0cbaa"/>
+  <path d="M760 184h42v27c0 7-6 13-13 13h-16c-7 0-13-6-13-13z" fill="#fff"/>
+  <path d="M802 190h8c12 0 12 20 0 20h-8" fill="none" stroke="#fff" stroke-width="7"/>
+  <path d="M774 170c-7-10 8-14 1-24M788 170c-7-10 8-14 1-24" fill="none" stroke="#ccd7e8" stroke-width="2" stroke-linecap="round"/>
+  <text x="62" y="126" fill="#415673" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-weight="600" font-size="29">읽기 좋은 문서,</text>
+  <text x="62" y="169" fill="#415673" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-weight="600" font-size="29">이어지는 생각.</text>
+  <text x="64" y="207" fill="#8a9bb2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" letter-spacing="2">YOUR SPACE TO READ &amp; WRITE</text>
+</svg>
