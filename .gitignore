@@ -1,6 +1,38 @@
+# Dependencies and generated files
 node_modules/
 dist/
 release/
 artifacts/
+coverage/
+playwright-report/
+test-results/
+.vite/
+.cache/
+*.tsbuildinfo
+*.app/
+*.dmg
+*.pkg
+*.zip
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.npmrc
+last-session.json
+.user-data/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editor and operating-system files
+.idea/
+*.swp
+*.swo
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
 *.log

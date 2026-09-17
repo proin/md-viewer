@@ -83,6 +83,8 @@ VS Code의 기본 마크다운 미리보기에서 제공하는 주요 문법을 
 개발 실행 전에는 실행 중인 Markdown Viewer를 종료합니다.
 
 ```sh
+git clone https://github.com/proin/md-viewer.git
+cd md-viewer
 npm ci
 npm start
 ```
@@ -97,7 +99,7 @@ npm run package # Apple Silicon용 macOS 앱 생성
 
 ## 개발과 업데이트
 
-프로젝트 위치는 `~/Dropbox/workspace/markdown-viewer`입니다. 원래 작업 폴더의 `outputs/markdown-viewer`는 이 프로젝트를 가리키는 연결 경로입니다.
+GitHub 저장소는 `proin/md-viewer`입니다. 저장소를 내려받은 폴더에서 수정·검사·빌드를 진행합니다.
 
 1. `src/`에서 화면·편집기·미리보기를, `electron/`에서 파일 처리와 macOS 기능을 수정합니다.
 2. `npm start`로 앱을 실행하여 변경 내용을 확인합니다.
@@ -117,7 +119,7 @@ npm run package # Apple Silicon용 macOS 앱 생성
 | `release/` | 배포용 앱 |
 | `artifacts/screenshots/` | 검사 중 저장한 화면 이미지 |
 
-`node_modules/`, `dist/`, `release/`, `artifacts/`는 Git 기록에서 제외합니다. 의존성은 `package-lock.json`에 기록된 버전으로 설치합니다.
+의존성 폴더, 빌드 결과, 검사 결과, 로그, `.env`·`.npmrc` 등 로컬 설정과 인증서 비밀키는 Git 기록에서 제외합니다. 의존성은 `package-lock.json`에 기록된 버전으로 설치합니다. 환경변수 예시를 공유하려면 실제 비밀값을 제거한 `.env.example`을 사용합니다.
 
 `npm run dev`는 화면 개발용 Vite 서버를 실행합니다. 파일 열기와 저장은 Electron 앱에서 동작하므로 일반 사용·검사에는 `npm start`를 사용합니다.
 
